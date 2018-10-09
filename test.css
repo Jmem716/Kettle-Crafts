@@ -1,0 +1,359 @@
+hr{
+  border-top: 1px solid #ff9b00 !important;
+  opacity: 0.5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+
+@media (min-width: 768px)
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px !important;
+    margin: 0px;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  width: 130px;
+  padding: 0px 10px 0px 5px !important;
+  margin-left: 0px !important;
+  font-size: 18px;
+  line-height: 20px;
+}
+.main-container {
+padding-top: 50px;
+}
+
+.index-intro {
+  width: 100%;
+}
+.index-intro h1{
+  border-left: 4px solid #ffac0c;
+  padding-left: 5px;
+}
+
+.index-intro .jumbotron {
+  background-image: url("kettle-images/index-img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px !important;
+  padding: 80px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+  padding-top: 50px;
+}
+.brushpen{
+  width: 300px;
+  margin-top: 50px;
+}
+
+#myCarousel {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+  overflow: hidden !important;
+}
+.lefts, .rights{
+  color: #222;
+}
+.carousel-indicators {
+}
+
+.centered-text {
+  text-align: center
+}
+
+.item {
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.item img {
+  max-width: 50%;
+  margin: auto;
+  overflow: hidden !important;
+}
+
+.ratings {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+.ratings h2{
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #ffac0c;
+}
+
+.ratings img {
+  border-bottom: 10px solid #ff9b00 ;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201D""\2018";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.lounge {
+  margin-bottom: 100px !important;
+  background: #eee;
+}
+.lounge article{
+  margin-top: 20% !important;
+  padding: 0 50px;
+}
+.lounge h2{
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #ffac0c;
+}
+
+
+/* ============================================= */
+
+.demo-bg {
+  background: #ff9b00;
+  margin-top: 60px;
+}
+.demo-bg img{
+  width: 85%;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.business-hours {
+  background: #222;
+  padding: 40px 14px;
+  margin-top: -15px;
+  position: relative;
+}
+
+.business-hours:before {
+  content: '';
+  width: 23px;
+  height: 23px;
+  background: #111;
+  position: absolute;
+  top: 5px;
+  left: -12px;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.business-hours .title {
+  font-size: 20px;
+  color: #BBB;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #ffac0c;
+}
+
+.business-hours li {
+  color: #888;
+  line-height: 30px;
+  border-bottom: 1px solid #333;
+}
+
+.business-hours li:last-child {
+  border-bottom: none;
+}
+
+.business-hours .opening-hours li.today {
+  color: #ffac0c;
+}
+
+#foot{
+  margin-top: 100px;
+}
+#foot-container{
+  padding-top: 50px;
+  background-color:#333333;
+}
+#top-btn{
+  float: right;
+  margin-right: 50px;
+  background-color: #080808!important;
+}
+#top-btn a{
+  text-decoration: none;
+  color:#9d9d9d;
+}
+#top-btn a:hover{
+  color: #fff;
+}
+
+
+
+.paper-bg{
+  background-image: url("kettle-images/index-img/paper-background.jpg");
+  margin-top: 50px;
+}
+.item-wrapper{
+  margin-top: 50px;
+  border: 2px solid #eee;
+  background: #eee;
+}
+  .border{
+  margin-bottom: 20px;
+  border: 2px solid #eee;
+  background: #333333;
+}
+.border img{
+  width: 250px ;
+  height: 250px ;
+  margin-top: 5px;
+  margin-left: 3.5px;
+}
+.border h3{
+  border-left: 3px solid #ffac0c;
+  margin-left: 5px;
+  color: #fff !important;
+}
+.border h3, .price{
+  padding-left: 3px;
+  color:#9d9d9d;
+}
+.border button{
+  margin-bottom: 5px;
+  background-color: #080808!important;
+  color:#9d9d9d;
+}
+.panel-default>.panel-heading {
+    background: #ffac0c !important;
+}
+.panel-footer .phone-icon{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 10px;
+}
+.about-p{
+  margin-top: 50px;
+  line-height: 2;
+}
+=========================================================
+
+/*================================= CONTACT SECTION =======================================*/
+.contact-wrapper{
+  background: #EEE;
+}
+#emailH1 {
+  text-align: center;
+  color: #FD632F;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+form {
+  max-width: 450px;
+  margin: 50px auto 50px;
+}
+
+input, textarea {
+  border: 3px solid #ffac0c;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.submit-wrap {
+  text-align: right;
+}
+
+input[type="submit"] {
+  background: #101010;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 33%;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover {
+  background: #333;
+}
+
+textarea {
+  height: 10em;
+}
+
+#contact-content {
+  margin-top: 50px;
+}
+
+.contact-info-group>label {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#name {
+  text-align: left;
+}
+
+#email {
+  text-align: left;
+}
+
+#text {
+  text-align: left;
+}
+#textarea{
+    display: block;
+}
+
+label:nth-child(1) {
+  padding: 0px;
+}
+
+label:nth-child(2) {
+  padding-left: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/*============================== END OF CONTACT SECTION =======================================*/
+
+@media(max-width:767px){
+  .jumbotron{
+    padding: 20px!important;
+    height: auto;
+  }
+  .intro{
+    margin-top: 200px !important;
+  }
+  .lounge{
+    margin-bottom: 100px !important;
+  }
+
+  .store-hours img{
+    margin-bottom: 50px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .col-sm-3 .border{
+    margin-left: 40px!important;
+    width: 80%!important;
+    text-align: center!important;
+  }
+}
